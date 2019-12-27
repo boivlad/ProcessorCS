@@ -12,7 +12,7 @@ namespace ProcessorCS
         {
             Clock clock = new Clock();
             Processor celeron = new Processor();
-            Bus data = new Bus(clock, celeron);
+            DataBus data = new DataBus(clock, celeron);
         }
     }
 }
